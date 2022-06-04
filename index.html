@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+<head>
+    <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
 <style>
-
     *{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         margin:0;
@@ -152,44 +154,5 @@
         &copy; Developed by - <a href="http://instagram.com/chileninhow" target="_blank"> Guilherme Costa </a>
     </Footer>
 </body>
-<script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-
-    let index = 0;
-
-    $('button').on('click', function() {
-
-        $('.tarefas').addClass('displayFlex');
-
-        let novaTarefa = $(`
-                <div class="container-tarefa">
-                    <div id="tarefa-info">
-                        <label for="tarefaAdd${index}"><p>${$('#tarefa').val()}</p></label>
-                    </div>
-                        <div>
-                            <button class="btnFeito">Feito</button>
-                            <button id="btnExcluir">Excluir</button>
-                        </div>
-                </div>                
-            `)
-
-
-        $('.tarefas').append(novaTarefa);
-        $('#tarefa').val('');
-        $('#tarefa').focus();
-        index++;
-
-    });
-
-    $(document).on('click', '#btnExcluir', function (e) {
-        $(this).parent().parent().fadeToggle();
-    })
-
-    $(document).on('click', '.btnFeito', function (e) {
-        $(this).parent().parent().toggleClass('feito');
-        $(this).toggleClass('btnFeitoClicado');
-    })
-
-</script>
-
+<script src="/script.js"></script>
 </html>

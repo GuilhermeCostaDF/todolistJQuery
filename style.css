@@ -129,14 +129,17 @@ footer a{
     margin-left: 5px;
 }
 
-@media screen and (max-width: 411px){
 
-    .tarefas {
-        top: -95px;
-        align-items: flex-start;
-        justify-content: space-around;
-        border-radius: 14px;
-        position: relative;
+
+@media screen and (max-width: 483px) {
+
+    header{
+        height: 40vh;
+    }
+
+    .tarefas{
+        max-width: 85%;
+        top: -180px;
     }
 
     .container-tarefa{
@@ -148,15 +151,20 @@ footer a{
     }
 }
 
-@media screen and (max-width: 483px) {
+@media screen and (max-width: 411px){
 
     header{
-        height: 40vh;
+        height: 35vh;
+        width: 100%;
     }
 
-    .tarefas{
-        max-width: 85%;
-        top: -180px;
+    .tarefas {
+        top: -90px;
+        align-items: flex-start;
+        justify-content: space-around;
+        border-radius: 14px;
+        position: relative;
+        width: 85%;
     }
 
     .container-tarefa{

@@ -33,3 +33,10 @@ $(document).on('click', '.btnFeito', function (e) {
     $(this).parent().parent().toggleClass('feito');
     $(this).toggleClass('btnFeitoClicado');
 })
+
+$(document).ready(function() {
+    /* ... */
+    var windowHeight = $(window).innerHeight();
+    $('body').css({'height':windowHeight});
+    /* ... */
+});

@@ -128,3 +128,24 @@ footer a{
     color: #7f5af0;
     margin-left: 5px;
 }
+
+
+@media (max-width: 412px) {
+
+    header{
+        height: 40vh;
+    }
+
+    .tarefas{
+        max-width: 85%;
+        top: -180px;
+    }
+
+    .container-tarefa{
+        max-width: 100%;
+    }
+
+    #tarefa-info{
+        max-width: 50%;
+    }
+}

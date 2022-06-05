@@ -156,6 +156,7 @@ footer a{
     header{
         height: 25vh;
         width: 100%;
+        position: static;
     }
 
     .tarefas {
@@ -163,7 +164,7 @@ footer a{
         align-items: flex-start;
         justify-content: space-around;
         border-radius: 14px;
-        position: relative;
+        position: static;
         width: 85%;
     }
 

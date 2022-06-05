@@ -161,6 +161,7 @@ footer a{
 
     section{
         height: 66vh;
+        position: static;
     }
 
     .tarefas {

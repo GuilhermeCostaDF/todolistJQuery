@@ -179,4 +179,8 @@ footer a{
     #tarefa-info{
         max-width: 50%;
     }
+
+    footer{
+        position: static;
+    }
 }

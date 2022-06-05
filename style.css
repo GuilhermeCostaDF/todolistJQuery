@@ -156,15 +156,15 @@ footer a{
     *{
         position: static;
     }
-
+    
     header{
-        min-height: 20vh;
+        height: 22vh;
         width: 100%;
         position: static;
     }
 
     section{
-        min-height: 66vh;
+        height: 66vh;
         position: static;
     }
 

@@ -153,8 +153,8 @@ footer a{
 
 @media screen and (max-width: 420px){
 
-    *{
-        position: static;
+    body{
+        min-height: 100vh;
     }
     
     header{

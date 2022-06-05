@@ -56,7 +56,7 @@ input[type="text"]{
 }
 
 .tarefas {
-    top: -180px;
+    top: -90px;
     width: 450px;
     display: none;
     align-items: flex-start;
